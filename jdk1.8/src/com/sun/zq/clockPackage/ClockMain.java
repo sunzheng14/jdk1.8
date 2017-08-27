@@ -3,13 +3,17 @@ package com.sun.zq.clockPackage;
 import java.time.Clock;
 import java.time.Instant;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
+import java.time.temporal.ChronoField;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 import java.util.Locale;
+
+import javax.swing.text.DateFormatter;
 
 public class ClockMain {
 
@@ -64,6 +68,20 @@ public class ClockMain {
 				withLocale(Locale.GERMANY);
 		LocalDate ld = LocalDate.parse("24.12.2014", dateFormatter);
 		System.out.println(ld);
+		
+		System.out.println("-------ÈÕÆÚ½áÊø---------");
+		
+		LocalDateTime ldt = LocalDateTime.of(2017, 8, 15, 18, 23,34);
+		System.out.println(ldt.getDayOfWeek());
+		System.out.println(ldt.getDayOfMonth());
+		System.out.println(ldt.getMonth());
+		System.out.println(ldt.getLong(ChronoField.MINUTE_OF_DAY));
+		
+		DateTimeFormatter def = DateTimeFormatter.ofPattern("MMM dd,yyyy-HH:mm");
+		LocalDateTime ldtime = LocalDateTime.of(2017, 8, 15, 18, 23,34);
+		String ddate = def.format(ldtime);
+		System.out.println(ddate);
+		
 	}
 
 }

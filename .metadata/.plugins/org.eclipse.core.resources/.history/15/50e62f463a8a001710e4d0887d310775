@@ -1,0 +1,67 @@
+package com.sun.zq.streamPackage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.sun.zq.MyComparator;
+
+public class StreamTest {
+	
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		list.add("aa1");
+		list.add("aa2");
+		list.add("ac2");
+		list.add("aab2");
+		list.add("bb1");
+		list.add("bb2");
+		list.add("cc1");
+		list.add("cc2");
+		list.add("dd1");
+		list.add("dd2");
+		list.add("ee");
+		
+		//filterTest(list);
+		//matchTest(list);
+		countTest(list);
+	}
+	
+	
+	static void filterTest(List<String> list){
+		list.stream()
+			.sorted((a,b)->b.compareTo(a))
+			.filter((s) -> s.startsWith("a"))
+			///.map(String::toUpperCase)
+			.filter((s) -> s.endsWith("2"))
+			.forEach(System.out::println);
+			
+	}
+	
+	static void matchTest(List<String> list){
+		boolean flag = list.stream()
+							.filter((s)->s.startsWith("a"))
+							.allMatch((s)->s.startsWith("a"));
+		
+		boolean flag2 = list.stream()
+							//.anyMatch((s)->s.endsWith("2"));
+							.allMatch((s)->s.endsWith("2"));
+		
+		boolean flag3 = list.stream()
+							.noneMatch((s)->s.startsWith("j"));
+				
+		System.out.println(flag3);
+		
+	}
+	
+	static void countTest(List<String> list){
+		long count = list.stream()
+			.filter((s)->s.startsWith("a"))
+			.count();
+		
+		long count2 = list.stream()
+						  .filter((s)->s.endsWith("2"))
+						  .count();
+		System.out.println(count2);
+		
+	}
+}

@@ -1,0 +1,6 @@
+package com.sun.zq;
+
+
+public class MyComparator implements Comparator {
+
+}

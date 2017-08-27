@@ -1,0 +1,12 @@
+package com.sun.zq.inte;
+
+public class ClientMain {
+
+	public static void main(String[] args) {
+		Converter<String,Integer> converter = (from) -> Integer.valueOf(from);
+		Integer i = converter.zhuanhuan("123");
+		System.out.println(i);
+		
+	}
+
+}

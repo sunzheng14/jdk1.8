@@ -1,0 +1,5 @@
+package com.sun.zq;
+
+public class InterfaceTestImpl implements InterfaceTest {
+	
+}

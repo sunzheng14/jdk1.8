@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/server/RocketMq/alibaba-rocketmq-client-java/fastjson-1.2.3.jar"/>
+	<classpathentry kind="lib" path="F:/server/RocketMq/alibaba-rocketmq-client-java/netty-all-4.0.25.Final.jar"/>
+	<classpathentry kind="lib" path="F:/server/RocketMq/alibaba-rocketmq-client-java/rocketmq-client-3.2.6.jar"/>
+	<classpathentry kind="lib" path="F:/server/RocketMq/alibaba-rocketmq-client-java/rocketmq-common-3.2.6.jar"/>
+	<classpathentry kind="lib" path="F:/server/RocketMq/alibaba-rocketmq-client-java/rocketmq-remoting-3.2.6.jar"/>
+	<classpathentry kind="lib" path="F:/server/RocketMq/alibaba-rocketmq-client-java/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

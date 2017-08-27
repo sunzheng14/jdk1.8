@@ -1,0 +1,31 @@
+package com.sun.zq.clockPackage;
+
+import java.time.Clock;
+import java.time.Instant;
+import java.time.ZoneId;
+import java.util.Date;
+
+public class ClockMain {
+
+	public static void main(String[] args) throws InterruptedException {
+		Clock clock = Clock.systemDefaultZone();
+		long millis0 = clock.millis();
+		Thread.sleep(2000L);
+		long millis1 = clock.millis();
+		System.out.println(millis1-millis0);
+		
+		Instant instant = clock.instant();
+		
+		Date date = Date.from(instant);
+		System.out.println(date.getDate());
+		
+		System.out.println(ZoneId.getAvailableZoneIds());
+		ZoneId zi1 = ZoneId.of("Etc/GMT+8");
+		ZoneId zi2 = ZoneId.of("Asia/Aden");
+		System.out.println(z1.getRules());
+		System.out.println(z2.getRules());
+		
+		
+	}
+
+}

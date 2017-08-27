@@ -1,0 +1,34 @@
+package com.sun.zq;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class ClientMain {
+
+	public static void main(String[] args) {
+		/*InterfaceTest.staticMethod();
+		InterfaceTest it = new InterfaceTestImpl();
+		it.defaultMethod();*/
+		
+		
+		List<String> list = Arrays.asList("peter","tom","boy","girl");
+		/*Collections.sort(list, new MyComparator());*/
+		/*Collections.sort(list, (String a,String b)->{
+			return b.compareTo(a);
+		});*/
+		/*Collections.sort(list, (a,b)->{
+			return b.compareTo(a);
+		});*/
+		Collections.sort(list, (a,b)->b.compareTo(a));
+		
+		for(String str : list){
+			System.out.println(str);
+		}
+	}
+	
+	public void add(int a,int b){
+		(a,b)-> a+b;
+	}
+
+}

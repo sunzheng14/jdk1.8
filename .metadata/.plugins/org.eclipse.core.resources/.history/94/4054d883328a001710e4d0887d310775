@@ -1,0 +1,6 @@
+package com.sun.zq.inte;
+
+@FunctionalInterface
+public interface Converter {
+	T Converter(F from);
+}

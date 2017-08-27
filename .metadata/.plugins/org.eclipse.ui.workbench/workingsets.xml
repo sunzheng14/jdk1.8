@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1482653199960_1" label="lts-examples" name="lts-examples">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobtracker-spring-annotaion" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobclient" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobtracker-java" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-monitor" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-quartz" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobtracker" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-examples" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktarcker-springboot" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobtracker-springboot" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobtracker-spring-xml" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker-spring-annotation-shard" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker-spring-xml-shard" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker-spring-annotation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker-java" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker-tester" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobclient-spring-annotation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker-springboot-shard" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-tasktracker-spring-xml" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobclient-java" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-monitor-springboot" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobclient-springboot" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lts-example-jobclient-spring-xml" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1453724099158_0" label="Window Working Set" name="Aggregate for window 1453724099158"/>
+</workingSetManager>

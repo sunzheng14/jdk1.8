@@ -1,0 +1,30 @@
+package com.sun.zq.streamPackage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StreamTest {
+	
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		list.add("aa1");
+		list.add("aa2");
+		list.add("bb1");
+		list.add("bb2");
+		list.add("cc1");
+		list.add("cc2");
+		list.add("dd1");
+		list.add("dd2");
+		list.add("ee");
+		
+		filterTest(list);
+	}
+	
+	
+	static void filterTest(List<String> list){
+		list.stream()
+			.filter((s) -> s.startsWith("a"))
+			.forEach(System.out::println);
+			
+	}
+}

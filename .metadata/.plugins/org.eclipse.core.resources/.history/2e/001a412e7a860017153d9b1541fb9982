@@ -1,0 +1,9 @@
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		int a = 0b01000;
+		System.out.println(a);
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.sun.zq;
+
+public class ClientMain {
+
+	public static void main(String[] args) {
+		InterfaceTest.staticMethod();
+	}
+
+}

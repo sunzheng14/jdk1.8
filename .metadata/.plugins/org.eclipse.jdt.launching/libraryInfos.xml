@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="F:\server\Java\jre" version="1.8.0_20">
+<bootpath>
+<entry path="F:\server\Java\jre\lib\resources.jar"/>
+<entry path="F:\server\Java\jre\lib\rt.jar"/>
+<entry path="F:\server\Java\jre\lib\sunrsasign.jar"/>
+<entry path="F:\server\Java\jre\lib\jsse.jar"/>
+<entry path="F:\server\Java\jre\lib\jce.jar"/>
+<entry path="F:\server\Java\jre\lib\charsets.jar"/>
+<entry path="F:\server\Java\jre\lib\jfr.jar"/>
+<entry path="F:\server\Java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\server\Java\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\server\Java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\server\jdk\Java\jdk1.6.0_22" version="1.6.0_22">
+<bootpath>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\resources.jar"/>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\rt.jar"/>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\sunrsasign.jar"/>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\jsse.jar"/>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\jce.jar"/>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\charsets.jar"/>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\server\jdk\Java\jdk1.6.0_22\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\server\Java\jdk1.8.0_20" version="1.8.0_20">
+<bootpath>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\resources.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\rt.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\jsse.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\jce.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\charsets.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\jfr.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="F:\server\Java\jdk1.8.0_20\jre" version="1.8.0_20">
+<bootpath>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\resources.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\rt.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\jsse.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\jce.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\charsets.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\jfr.jar"/>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\server\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
